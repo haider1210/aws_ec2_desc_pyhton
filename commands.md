@@ -1,5 +1,3 @@
-Here’s a complete, professional **`commands.md`** file with setup, dependencies, execution, and examples—all in one:
-
 ````markdown
 # AWS EC2 CLI – Setup & Execution Guide
 
@@ -54,62 +52,20 @@ source venv/bin/activate
 pip install --upgrade pip
 ```
 
-### Install project dependencies
-
 ```bash
-pip install -r requirements.txt
+pip install sh
 ```
 
----
-
-## 3. Running the EC2 Script
-
-The Python script supports multiple operations: **start**, **stop**, **terminate**, and **reboot** EC2 instances. You can provide one or more instance IDs.
-
-### Run script for all instances
+## cli command example
 
 ```bash
 python3 create_ec2.py \
   --key_id <AWS_ACCESS_KEY_ID> \
   --access_key <AWS_SECRET_ACCESS_KEY> \
   --region ap-south-1 \
-  --operation start
+  --instance_id i-867ghjgxxx 
 ```
 
-### Run script for specific instance(s)
-
-```bash
-python3 create_ec2.py \
-  --key_id <AWS_ACCESS_KEY_ID> \
-  --access_key <AWS_SECRET_ACCESS_KEY> \
-  --region ap-south-1 \
-  --operation stop \
-  --instance_id i-xxxxxxxx i-yyyyyyyy
-```
-
-### Terminate instance(s)
-
-```bash
-python3 create_ec2.py \
-  --key_id <AWS_ACCESS_KEY_ID> \
-  --access_key <AWS_SECRET_ACCESS_KEY> \
-  --region ap-south-1 \
-  --operation terminate \
-  --instance_id i-xxxxxxxx
-```
-
-### Reboot instance(s)
-
-```bash
-python3 create_ec2.py \
-  --key_id <AWS_ACCESS_KEY_ID> \
-  --access_key <AWS_SECRET_ACCESS_KEY> \
-  --region ap-south-1 \
-  --operation reboot \
-  --instance_id i-xxxxxxxx
-```
-
----
 
 ## 4. Output
 
@@ -132,20 +88,4 @@ The script prints EC2 instance details in JSON format:
     "Public IP": "N/A"
   }
 ]
-```
-
----
-
-## 5. Notes
-
-* Make sure the AWS CLI has the correct access rights for the provided credentials.
-* You can provide multiple instance IDs separated by space for batch operations.
-* Logging is enabled and saved with timestamps in the current directory.
-* Ensure the virtual environment is activated before running the script.
-
-```
-
-If you want, I can also **create a matching `README.md`** with long project description, features, and reference this `commands.md` for instructions so the repo looks professional.  
-
-Do you want me to do that next?
 ```
