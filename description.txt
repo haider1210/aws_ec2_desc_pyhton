@@ -1,4 +1,0 @@
-This project retrieves AWS EC2 instance details using Python and AWS CLI.
-It authenticates using environment variables, executes AWS CLI commands,
-parses JSON output, and displays instance metadata including ID, name,
-state, private IP, and public IP.
