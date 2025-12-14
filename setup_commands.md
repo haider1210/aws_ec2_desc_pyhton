@@ -1,8 +1,7 @@
-### =====================================
 ### AWS EC2 CLI – Setup & Execution Guide
-### =====================================
 
 ### 1. Update system packages
+```json
 sudo apt update
 
 ### 2. Install Python and required tools
@@ -53,5 +52,6 @@ python3 create_ec2.py \
   --region ap-south-1 \
   --operation terminate \
   --instance_id i-xxxxxxxx
+
 
 
