@@ -45,7 +45,7 @@ python create_ec2.py --key_id <KEY> --access_key <SECRET> --region <REGION> --op
 ### Run for specific instances
 
 ```bash
-python create_ec2.py --key_id <KEY> --access_key <SECRET> --region <REGION> --operation stop --instance_id i-123 i-456
+python create_ec2.py --key_id <KEY> --access_key <SECRET> --region <REGION> --operation stop --instance_id i-123uytruryr 
 ```
 
 ---
