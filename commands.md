@@ -44,13 +44,13 @@ pip install sh
 ### Run for all instances
 
 ```bash
-python create_ec2.py --key_id <KEY> --access_key <SECRET> --region <REGION> --operation start
+python create_ec2.py --key_id <KEY> --access_key <SECRET> --region <REGION> 
 ```
 
 ### Run for specific instances
 
 ```bash
-python create_ec2.py --key_id <KEY> --access_key <SECRET> --region <REGION> --operation stop --instance_id i-123uytruryr 
+python create_ec2.py --key_id <KEY> --access_key <SECRET> --region <REGION> --instance_id i-123uytruryr 
 ```
 
 ---
