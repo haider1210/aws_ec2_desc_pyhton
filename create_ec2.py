@@ -6,7 +6,7 @@ import sys
 import sh
 import logging
 
-
+out =[]
 # --------------------------------------------------
 # AUTHENTICATION
 # --------------------------------------------------
@@ -165,9 +165,6 @@ def main():
         )
 
         logging.info("Script execution started")
-
-        out = []
-
         authentication(params)
         describe_instances(params, out)
 
