@@ -1,4 +1,3 @@
-Here’s a more detailed and professional version for your description:
 
 ---
 
@@ -12,3 +11,4 @@ Key capabilities include:
   * **Instance ID:** Unique identifier of the EC2 instance
   * **Name:** Human-readable name assigned via tags
   * **State:** Current lifecycle
+
