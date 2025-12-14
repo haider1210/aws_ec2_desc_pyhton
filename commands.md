@@ -3,7 +3,7 @@ Here’s a **short, single `README.md`** covering Linux & Windows, setup, usage,
 ````markdown
 # AWS EC2 CLI – Python Script
 
-This project retrieves AWS EC2 instance details and performs operations (start/stop/reboot/terminate) using Python and AWS CLI. It authenticates via environment variables, executes AWS CLI commands, and prints EC2 metadata (ID, Name, State, Private/Public IP).
+This project retrieves AWS EC2 instance details  using Python and AWS CLI. It authenticates via environment variables, executes AWS CLI commands, and prints EC2 metadata (ID, Name, State, Private/Public IP).
 
 ---
 
@@ -51,16 +51,20 @@ python create_ec2.py --key_id <KEY> --access_key <SECRET> --region <REGION> --op
 
 ```json
 [
-  {"InstanceId":"i-0abc123","Name":"MyEC2","State":"running","Private IP":"10.0.0.15","Public IP":"13.233.xxx.xxx"},
-  {"InstanceId":"i-0abc456","Name":"TestEC2","State":"stopped","Private IP":"10.0.0.20","Public IP":"N/A"}
+  {
+   "InstanceId":"i-0abc123",
+   "Name":"MyEC2",
+   "State":"running",
+   "Private IP":"10.0.0.15",
+   "Public IP":"13.233.xxx.xxx"
+  },
+  {
+   "InstanceId":"i-0abc456",
+   "Name":"TestEC2",
+   "State":"stopped",
+   "Private IP":"10.0.0.20",
+   "Public IP":"N/A"
+  }
 ]
 ```
 
-* Logs are created in the same folder with detailed execution info.
-
-```
-
-I can also **create a `commands.md` file separately** if you want the commands fully listed for Linux & Windows.  
-
-Do you want me to do that?
-```
