@@ -26,6 +26,11 @@ pip install sh
 
 ```powershell
 # Install Python & AWS CLI manually
+Install Python
+Download from Python.org and install.
+Install AWS CLI
+Download the MSI installer from AWS CLI and install.
+
 python -m venv venv
 .\venv\Scripts\Activate
 pip install --upgrade pip
