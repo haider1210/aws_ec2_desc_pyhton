@@ -3,7 +3,9 @@ Here’s a **short, single `README.md`** covering Linux & Windows, setup, usage,
 ````markdown
 # AWS EC2 CLI – Python Script
 
-This project retrieves AWS EC2 instance details  using Python and AWS CLI. It authenticates via environment variables, executes AWS CLI commands, and prints EC2 metadata (ID, Name, State, Private/Public IP).
+This project retrieves AWS EC2 instance details  using Python and AWS CLI.
+ It authenticates via environment variables, executes AWS CLI commands,
+ and prints EC2 metadata (ID, Name, State, Private/Public IP).
 
 ---
 
