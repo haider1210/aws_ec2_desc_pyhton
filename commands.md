@@ -16,7 +16,7 @@ sudo apt install -y python3 python3-venv python3-pip awscli
 python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
-pip install -r requirements.txt
+pip install sh
 ````
 
 ### Windows
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 python -m venv venv
 .\venv\Scripts\Activate
 pip install --upgrade pip
-pip install -r requirements.txt
+pip install sh
 ```
 
 ---
