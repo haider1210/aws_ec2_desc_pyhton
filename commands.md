@@ -4,14 +4,13 @@
 This guide explains how to set up your system, install dependencies, and run the Python script to
 manage AWS EC2 instances using AWS CLI.
 
----
-
+````
 ## 1. System Setup
 
 ### Update system packages
 ```bash
 sudo apt update
-````
+```
 
 ### Install Python and required tools
 
