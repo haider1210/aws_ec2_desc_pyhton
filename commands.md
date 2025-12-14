@@ -8,6 +8,7 @@ This project retrieves AWS EC2 instance details  using Python and AWS CLI.
  and prints EC2 metadata (ID, Name, State, Private/Public IP).
 
 ---
+````
 
 ## Setup
 
@@ -19,7 +20,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
 pip install sh
-````
+```
 
 ### Windows
 
